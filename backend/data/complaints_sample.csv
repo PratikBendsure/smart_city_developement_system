@@ -1,0 +1,13 @@
+trackingId,category,title,description,location,ward,city,status,severity,reporterName,createdAt,resolvedAt
+CF-A1B2C3,waste_management,Garbage Pile Not Collected,"Garbage has not been collected for 5 days","MG Road, Andheri West",Ward 5,Mumbai,resolved,medium,Rahul Sharma,2026-01-15,2026-01-16
+CF-D4E5F6,water_supply,Water Pipe Burst on Main Road,"Water is flowing on the road wasting precious water","Station Road, Bandra",Ward 3,Mumbai,in_progress,high,Priya Patel,2026-01-16,
+CF-G7H8I9,road_infrastructure,Large Pothole Near Highway,"A very large pothole appeared after rain causing accidents","NH-48 Flyover Exit",Ward 2,Pune,pending,high,Amit Kumar,2026-01-17,
+CF-J10K11,sanitation_hygiene,Open Defecation Near Residential Area,"Open defecation is happening near residential area causing health hazard","Park Avenue Block C",Ward 1,Nashik,resolved,critical,Sunita Devi,2026-01-18,2026-01-19
+CF-L12M13,encroachment,Footpath Blocked by Hawkers,"Street food vendors occupying entire footpath","Gandhi Chowk",Ward 4,Kolhapur,pending,medium,Vikram Singh,2026-01-19,
+CF-N14O15,health_services,PHC Closed During Working Hours,"Primary Health Center is closed during working hours","Civil Lines",Ward 6,Aurangabad,resolved,high,Meera Joshi,2026-01-20,2026-01-21
+CF-P16Q17,parks_recreation,Park Benches Broken,"Multiple park benches are broken and dangerous for kids","Rajiv Gandhi Nagar",Ward 8,Nagpur,in_progress,low,Kiran More,2026-01-21,
+CF-R18S19,fire_emergency,Open Electrical Wires on Street,"Electrical wires hanging dangerously low on street","Shivaji Nagar",Ward 9,Solapur,resolved,critical,Ravi Kumar,2026-01-22,2026-01-22
+CF-T20U21,education_facility,School Roof Leaking,"School roof leaking water into classrooms affecting students","Old City",Ward 10,Thane,pending,medium,Geeta Patil,2026-01-23,
+CF-V22W23,waste_management,Overflowing Dustbin,"Dustbin has not been emptied for days and is overflowing","Indiranagar",Ward 11,Bengaluru,resolved,medium,Suresh Rao,2026-01-24,2026-01-25
+CF-X24Y25,water_supply,No Water Supply Since 3 Days,"Water supply has been completely stopped for 3 days","T Nagar",Ward 12,Chennai,in_progress,high,Lakshmi Nair,2026-01-25,
+CF-Z26A27,road_infrastructure,Broken Street Light,"Street light is not working making road dangerous at night","MG Road Sector 5",Ward 5,Mumbai,resolved,medium,Deepak Shah,2026-01-26,2026-01-27
