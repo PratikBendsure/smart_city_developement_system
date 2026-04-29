@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
   <h1 align="center">🏙️ CivicFix — Smart City Complaint Management System</h1>
   <p align="center">
@@ -427,3 +428,6 @@ This project is open source and available under the [MIT License](LICENSE).
 <p align="center">
   Made with ❤️ for Smart Cities
 </p>
+=======
+# smart_city_developement_system
+>>>>>>> 488722d63d7edacf2c575892fefa3c30a522a394
