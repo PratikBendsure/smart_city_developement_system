@@ -63,7 +63,7 @@ router.post('/register', async (req, res) => {
     }
 });
 
-// @route  POST /api/auth/login
+// @route /api/auth/login
 router.post('/login', async (req, res) => {
     try {
         const { email, password } = req.body;
@@ -109,6 +109,7 @@ router.post('/login', async (req, res) => {
         res.status(500).json({ success: false, message: err.message });
     }
 });
+
 
 // @route  GET /api/auth/me
 router.get('/me', protect, async (req, res) => {

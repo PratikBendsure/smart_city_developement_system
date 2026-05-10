@@ -34,9 +34,20 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', message: 'CivicFix API is running', time: new Date() });
 });
 
-app.use((req, res) => {
-  res.status(404).json({ success: false, message: 'Route not found' });
+app.use('/api/*', (req, res) => {
+  res.status(404).json({ success: false, message: 'API Route not found' });
 });
+
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static(path.join(__dirname, '../frontend/dist')));
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../frontend', 'dist', 'index.html'));
+  });
+} else {
+  app.get('/', (req, res) => {
+    res.send('API is running... Please run frontend separately in dev mode.');
+  });
+}
 
 app.use((err, req, res, next) => {
   console.error(err.stack);
